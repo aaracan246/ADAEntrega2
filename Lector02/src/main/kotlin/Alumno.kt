@@ -7,6 +7,8 @@ data class Alumno(val apellidos: String,
                   val parcial2: Double,
                   val ordinario1: Double?,
                   val ordinario2: Double?,
-                  val practicas: Double?,
-                  val ordinarioPracticas: Double,
-                  val notaFinal: Double = 0.0)
+                  val practicas: Double,
+                  val ordinarioPracticas: Double?,
+                  var notaFinal: Double = 0.0)
+
+
